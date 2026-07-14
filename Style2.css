@@ -1648,7 +1648,27 @@ grid-template-columns:1fr;
 
 
 
+/*==========================================
+        COMPETITIVE SECTION
+==========================================*/
 
+.competitive-section{
+
+    padding:70px 8%;
+
+    text-align:center;
+
+}
+
+.competitive-section h2{
+
+    font-size:42px;
+
+    color:#0B3C5D;
+
+    margin-bottom:10px;
+
+}
 
 
 
