@@ -10,6 +10,25 @@
 
 <link rel="stylesheet" href="Style2.css">
 
+<style>
+/* ==========================================
+        TEST CARD GRID
+=========================================== */
+
+.pdf-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+/* Responsive layout for mobile */
+@media (max-width: 700px) {
+    .pdf-grid {
+        grid-template-columns: 1fr;
+    }
+}
+</style>
+
 </head>
 
 <body>
@@ -20,19 +39,20 @@
 
 <nav class="navbar">
 
-<div class="logo">
+    <div class="logo">
+        📝 Olympiad Tests
+    </div>
 
-📝 Olympiad Tests
+    <ul class="nav-links">
 
-</div>
+        <li>
+            <a href="index.html">🏠 Home</a>
+        </li>
 
-<ul class="nav-links">
-
-<li><a href="index.html">🏠 Home</a></li>
-
-</ul>
+    </ul>
 
 </nav>
+
 
 <!--==========================================
                 HEADER
@@ -40,15 +60,14 @@
 
 <header class="page-header">
 
-<h1>Olympiad Tests</h1>
+    <h1>Olympiad Tests</h1>
 
-<p>
-
-Chapter Tests • Mock Tests • Practice Exams
-
-</p>
+    <p>
+        Chapter Tests • Mock Tests • Practice Exams
+    </p>
 
 </header>
+
 
 <!--==========================================
             BREADCRUMB
@@ -56,21 +75,20 @@ Chapter Tests • Mock Tests • Practice Exams
 
 <div class="breadcrumb">
 
-<a href="index.html">Home</a>
+    <a href="index.html">Home</a>
 
-<span>></span>
+    <span>></span>
 
-<a href="olympiad.html">Olympiad</a>
+    <a href="olympiad.html">Olympiad</a>
 
-<span>></span>
+    <span>></span>
 
-<strong>Tests</strong>
+    <strong>Tests</strong>
 
 </div>
 
 
-            
- <!--==========================================
+<!--==========================================
             TOPIC GRID
 ===========================================-->
 
@@ -83,23 +101,24 @@ Chapter Tests • Mock Tests • Practice Exams
 
 <div class="topic-card">
 
-<h3>📘IOQM </h3>
+    <h3>📘 IOQM</h3>
 
-<div class="pdf-grid">
+    <div class="pdf-grid">
 
-<div class="pdf-card">
+        <div class="pdf-card">
 
-<h4>Divisibility and Number System</h4>
+            <h4>Divisibility and Number System</h4>
 
-<a href="https://drive.google.com/file/d/1OOGK_FDXsq8gybQntXUytzNJh2KhPkdi/view?usp=drive_link" target="_blank">
+            <a href="https://drive.google.com/file/d/1OOGK_FDXsq8gybQntXUytzNJh2KhPkdi/view?usp=drive_link"
+               target="_blank">
 
-📄 Open Notes
+                📄 Open Notes
 
-</a>
+            </a>
 
-</div>
+        </div>
 
-</div>
+    </div>
 
 </div>
 
@@ -110,83 +129,98 @@ Chapter Tests • Mock Tests • Practice Exams
 
 <div class="topic-card">
 
-<h3>📗  SOF IMO (Class 8)</h3>
+    <h3>📗 SOF IMO (Class 8)</h3>
 
-<!--==========================================
-Assignment 1
-===========================================-->
 
-<div class="pdf-card">
+    <!--======================================
+                SQUARES AND CUBES
+    =======================================-->
 
-<h4>Squares and Cubes</h4>
+    <div class="pdf-grid">
 
-<div class="btn-row">
+        <div class="pdf-card">
 
-<a href="https://drive.google.com/file/d/1JJz07pkgqnZiTGqTDlCir7shKIaskGZZ/view?usp=drive_link" target="_blank" class="small-btn">
+            <h4>Squares and Cubes</h4>
 
-📄 Test
+            <div class="btn-row">
 
-</a>
+                <a href="https://drive.google.com/file/d/1JJz07pkgqnZiTGqTDlCir7shKIaskGZZ/view?usp=drive_link"
+                   target="_blank"
+                   class="small-btn">
 
-<a href="https://drive.google.com/file/d/1GGyUSRSn7VvZgJ-4ZycSEO7Se8B9macx/view?usp=drive_link" target="_blank" class="small-btn">
+                    📄 Test
 
-✅ Solution
+                </a>
 
-</a>
+                <a href="https://drive.google.com/file/d/1GGyUSRSn7VvZgJ-4ZycSEO7Se8B9macx/view?usp=drive_link"
+                   target="_blank"
+                   class="small-btn">
+
+                    ✅ Solution
+
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <!--======================================
+                    EXPONENT AND POWERS
+        =======================================-->
+
+        <div class="pdf-card">
+
+            <h4>Exponent and Powers</h4>
+
+            <div class="btn-row">
+
+                <a href="https://drive.google.com/file/d/13RT7PKW3TYpLFcZS-dHIU3SG0nEpGIvQ/view?usp=drive_link"
+                   target="_blank"
+                   class="small-btn">
+
+                    📄 Test
+
+                </a>
+
+                <a href="https://drive.google.com/file/d/1BDsC-z7AmvuvZYso_qnd2h5nRzbl-uNV/view?usp=drive_link"
+                   target="_blank"
+                   class="small-btn">
+
+                    ✅ Solution
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
 
 </div>
-</div>
 
-<div class="pdf-card">
 
-<h4>Exponent and Powers</h4>
-
-<div class="btn-row">
-
-<a href="https://drive.google.com/file/d/13RT7PKW3TYpLFcZS-dHIU3SG0nEpGIvQ/view?usp=drive_link" target="_blank" class="small-btn">
-
-📄 Test
-
-</a>
-
-<a href="https://drive.google.com/file/d/1BDsC-z7AmvuvZYso_qnd2h5nRzbl-uNV/view?usp=drive_link" target="_blank" class="small-btn">
-
-✅ Solution
-
-</a>
-
-</div>
-
-            
-
-            
-</div>
-
-</div>
 </section>
 
+
 <!--==========================================
-        FUTURE TESTS (Duplicate when needed)
+        FUTURE TESTS
+===========================================-->
+
+<!--
 
 <div class="pdf-card">
 
-<h4>Test Name</h4>
+    <h4>Test Name</h4>
 
-<a href="#" target="_blank">
-
-📝 Open Test
-
-</a>
+    <a href="#" target="_blank">
+        📝 Open Test
+    </a>
 
 </div>
 
-===========================================-->
+-->
 
-</div>
-
-</div>
-
-</section>
 
 <!--==========================================
             BACK BUTTON
@@ -194,13 +228,14 @@ Assignment 1
 
 <div class="back-container">
 
-<a href="olympiad.html" class="back-btn">
+    <a href="olympiad.html" class="back-btn">
 
-← Back to Olympiad
+        ← Back to Olympiad
 
-</a>
+    </a>
 
 </div>
+
 
 <!--==========================================
                 FOOTER
@@ -208,14 +243,14 @@ Assignment 1
 
 <footer class="footer">
 
-<div class="copyright">
+    <div class="copyright">
 
-© 2026 Rahul Ganguly | Mathematics Resource Portal
+        © 2026 Rahul Ganguly | Mathematics Resource Portal
 
-</div>
+    </div>
 
 </footer>
 
-</body>
 
+</body>
 </html>
